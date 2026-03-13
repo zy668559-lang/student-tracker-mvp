@@ -1,0 +1,101 @@
+[
+  {
+    "snapshot_id": "ms-001",
+    "student_id": "english-demo",
+    "date": "2026-03-08T20:00:00+08:00",
+    "metric_name": "阅读定位",
+    "metric_value_text": "从看题就选，转到先找定位句",
+    "trend": "up",
+    "current_status": "还能被干扰项带走，但已经开始先回原文定位。",
+    "recent_change": "一开始只看题干就选，这两天会先回段落找对应句。",
+    "next_focus": "把定位后再核对主语、时间、转折词变成固定动作。"
+  },
+  {
+    "snapshot_id": "ms-002",
+    "student_id": "english-demo",
+    "date": "2026-03-11T20:00:00+08:00",
+    "metric_name": "阅读定位",
+    "metric_value_text": "定位动作开始稳定",
+    "trend": "up",
+    "current_status": "大部分阅读题会先找句子，再看选项差别。",
+    "recent_change": "错误从“瞄一眼就选”减少到“能找到句子但比对不够细”。",
+    "next_focus": "继续练定位后的细比对，尤其是范围词和否定词。"
+  },
+  {
+    "snapshot_id": "ms-003",
+    "student_id": "english-demo",
+    "date": "2026-03-14T20:00:00+08:00",
+    "metric_name": "阅读定位",
+    "metric_value_text": "定位先行，准确率回升",
+    "trend": "up",
+    "current_status": "阅读不再一眼选，能先定位再判断，节奏明显稳了。",
+    "recent_change": "近 3 次练习里，因没回原文导致的错题明显减少。",
+    "next_focus": "把转折、比较、范围限定词做成第二轮固定检查。"
+  },
+  {
+    "snapshot_id": "ms-004",
+    "student_id": "english-demo",
+    "date": "2026-03-08T20:10:00+08:00",
+    "metric_name": "语言稳定",
+    "metric_value_text": "只认单词，不看搭配",
+    "trend": "watch",
+    "current_status": "认识词，但遇到固定搭配和逻辑词时判断不稳。",
+    "recent_change": "会把熟词硬套进句子，忽略前后语义关系。",
+    "next_focus": "先抓句子关系，再决定搭配和词形。"
+  },
+  {
+    "snapshot_id": "ms-005",
+    "student_id": "english-demo",
+    "date": "2026-03-11T20:10:00+08:00",
+    "metric_name": "语言稳定",
+    "metric_value_text": "开始先看句子关系",
+    "trend": "steady",
+    "current_status": "做语言点题时，已经会先看转折、因果和并列关系。",
+    "recent_change": "固定搭配错得少了一些，但词形变化还会漏看。",
+    "next_focus": "复练固定搭配后，再加上词形判断一起查。"
+  },
+  {
+    "snapshot_id": "ms-006",
+    "student_id": "english-demo",
+    "date": "2026-03-14T20:10:00+08:00",
+    "metric_name": "语言稳定",
+    "metric_value_text": "搭配判断在变稳",
+    "trend": "up",
+    "current_status": "固定搭配判断更稳了，但逻辑词转换还要继续盯。",
+    "recent_change": "最近几次语言点训练里，熟词误判减少，漏看逻辑词的问题缩小。",
+    "next_focus": "把 however / therefore / instead 这类转换词继续做强提醒。"
+  },
+  {
+    "snapshot_id": "ms-007",
+    "student_id": "english-demo",
+    "date": "2026-03-08T20:20:00+08:00",
+    "metric_name": "作文输出稳定度",
+    "metric_value_text": "有内容，句子不稳",
+    "trend": "watch",
+    "current_status": "能写出意思，但句子容易松，时态和连接不稳。",
+    "recent_change": "内容不少，可一到长句就容易乱。",
+    "next_focus": "先保 3 类核心句型的稳定落地。"
+  },
+  {
+    "snapshot_id": "ms-008",
+    "student_id": "english-demo",
+    "date": "2026-03-11T20:20:00+08:00",
+    "metric_name": "作文输出稳定度",
+    "metric_value_text": "基础句型开始成形",
+    "trend": "steady",
+    "current_status": "简单句更稳了，但连接句和扩展句还容易掉。",
+    "recent_change": "从想到什么写什么，开始改成先用已练过的句型搭框架。",
+    "next_focus": "把 because / if / when 三类扩展句再练熟。"
+  },
+  {
+    "snapshot_id": "ms-009",
+    "student_id": "english-demo",
+    "date": "2026-03-14T20:20:00+08:00",
+    "metric_name": "作文输出稳定度",
+    "metric_value_text": "句子稳定度回升",
+    "trend": "up",
+    "current_status": "作文不再全靠临场拼句，基础句型和连接更稳了。",
+    "recent_change": "最新 2 次短写里，句子结构错误减少，表达更顺。",
+    "next_focus": "继续把常用连接句压熟，再慢慢加表达变化。"
+  }
+]

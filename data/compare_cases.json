@@ -1,0 +1,46 @@
+[
+  {
+    "case_id": "case-001",
+    "student_id": "english-demo",
+    "date": "2026-03-14T18:00:00+08:00",
+    "module": "完形",
+    "before_problem": "只看空格，不看前后句",
+    "before_reason": "把完形当单词题做，看到认识的词就想填，没有先判断上下文关系。",
+    "after_method": "先连着读前后句，先说清楚是转折、并列还是因果，再选词。",
+    "after_change": "现在不会一上来就凭眼熟选词，干扰项带偏的情况少了。",
+    "show_in_live": true
+  },
+  {
+    "case_id": "case-002",
+    "student_id": "english-demo",
+    "date": "2026-03-14T18:10:00+08:00",
+    "module": "阅读",
+    "before_problem": "题干看一眼就选",
+    "before_reason": "以为自己记住了文章大意，但没有回到原文核对范围和细节。",
+    "after_method": "先划题干关键词，再回原文找定位句，最后比选项差别。",
+    "after_change": "现在做题节奏慢一点，但更稳，不再靠感觉直接选。",
+    "show_in_live": true
+  },
+  {
+    "case_id": "case-003",
+    "student_id": "english-demo",
+    "date": "2026-03-14T18:20:00+08:00",
+    "module": "语言点",
+    "before_problem": "认识单词但不会判断搭配",
+    "before_reason": "只认词义，不看句子关系，也不检查固定搭配和词形变化。",
+    "after_method": "先看句子逻辑，再判断该用哪组搭配，最后补查词形。",
+    "after_change": "熟词误判减少了，做语言点时开始有明确检查顺序。",
+    "show_in_live": true
+  },
+  {
+    "case_id": "case-004",
+    "student_id": "english-demo",
+    "date": "2026-03-14T18:30:00+08:00",
+    "module": "作文",
+    "before_problem": "有内容但句子不稳",
+    "before_reason": "脑子里有想法，但没有稳定句型做支架，一写长句就散。",
+    "after_method": "先用练熟的基础句型搭框架，再补内容，最后统一检查时态和连接。",
+    "after_change": "现在句子更短更稳，表达没以前乱，家长能明显看到结构更清楚了。",
+    "show_in_live": true
+  }
+]

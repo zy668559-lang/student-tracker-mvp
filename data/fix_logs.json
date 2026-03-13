@@ -1,0 +1,38 @@
+[
+  {
+    "fix_id": "fix-001",
+    "student_id": "english-demo",
+    "date": "2026-03-14T09:10:00+08:00",
+    "module": "完形",
+    "problem_found": "只盯空格词，不看前后句关系",
+    "error_logic": "看到熟词就想直接填，没先判断句子是在转折、并列还是因果。",
+    "repair_action": "先口头说出句子关系，再从 2 个最像的选项里排除不合逻辑的那个。",
+    "same_type_check": "同类复检 4 题对 3 题，已经会先看转折词。",
+    "result_note": "当天见效",
+    "next_recheck_date": "2026-03-17T19:30:00+08:00"
+  },
+  {
+    "fix_id": "fix-002",
+    "student_id": "english-demo",
+    "date": "2026-03-14T14:25:00+08:00",
+    "module": "阅读",
+    "problem_found": "题干看一眼就选，没有回原文定位",
+    "error_logic": "脑子里觉得‘这个词眼熟’，就直接往熟悉选项靠，没核对原文范围。",
+    "repair_action": "每题先划题干关键词，再回原文找对应句，最后才看选项细差别。",
+    "same_type_check": "复检 3 题全部先完成定位，错误集中在细节比对，不再是乱选。",
+    "result_note": "动作已建立",
+    "next_recheck_date": "2026-03-16T20:00:00+08:00"
+  },
+  {
+    "fix_id": "fix-003",
+    "student_id": "english-demo",
+    "date": "2026-03-14T19:40:00+08:00",
+    "module": "作文",
+    "problem_found": "有内容，但句子一长就不稳",
+    "error_logic": "想到什么写什么，句型没有固定支架，导致时态和连接乱掉。",
+    "repair_action": "先用 3 个已练熟句型搭框架，再往里面填内容，不允许临时拼复杂句。",
+    "same_type_check": "重写后句子更短但更稳，主要信息都保住了。",
+    "result_note": "稳定度提升",
+    "next_recheck_date": "2026-03-18T19:30:00+08:00"
+  }
+]
