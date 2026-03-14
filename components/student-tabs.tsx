@@ -1,14 +1,9 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const tabs = [
-  {
-    href: "/student/english-demo",
-    label: "首页",
-    shortLabel: "Dashboard"
-  },
   {
     href: "/student/english-demo/metrics",
     label: "三项总表",
