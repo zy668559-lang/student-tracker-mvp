@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "set STATIC_EXPORT=true&& next build",
     "start": "next start",
     "lint": "eslint . --max-warnings=0"
   },
