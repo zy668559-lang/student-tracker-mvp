@@ -1,22 +1,46 @@
 ﻿import compareCasesJson from "@/data/compare_cases.json";
 import fixLogsJson from "@/data/fix_logs.json";
+import mathCompareCasesJson from "@/data/math_compare_cases.json";
+import mathFixLogsJson from "@/data/math_fix_logs.json";
+import mathMetricSnapshotsJson from "@/data/math_metric_snapshots.json";
+import mathStudentsJson from "@/data/math_students.json";
 import metricSnapshotsJson from "@/data/metric_snapshots.json";
 import studentsJson from "@/data/students.json";
 import type { CompareCase, FixLog, MetricSnapshot, Student } from "@/lib/types";
 
-const students = studentsJson as Student[];
-const metricSnapshots = metricSnapshotsJson as MetricSnapshot[];
-const fixLogs = fixLogsJson as FixLog[];
-const compareCases = compareCasesJson as CompareCase[];
+const students = [
+  ...(studentsJson as Student[]),
+  ...(mathStudentsJson as Student[])
+];
+const metricSnapshots = [
+  ...(metricSnapshotsJson as MetricSnapshot[]),
+  ...(mathMetricSnapshotsJson as MetricSnapshot[])
+];
+const fixLogs = [
+  ...(fixLogsJson as FixLog[]),
+  ...(mathFixLogsJson as FixLog[])
+];
+const compareCases = [
+  ...(compareCasesJson as CompareCase[]),
+  ...(mathCompareCasesJson as CompareCase[])
+];
 
-export function getDemoStudent() {
-  const student = students.find((item) => item.student_id === "english-demo");
+export function getStudent(studentId: string) {
+  const student = students.find((item) => item.student_id === studentId);
 
   if (!student) {
-    throw new Error("Demo student not found.");
+    throw new Error(`Student not found: ${studentId}`);
   }
 
   return student;
+}
+
+export function getDemoStudent() {
+  return getStudent("english-demo");
+}
+
+export function getMathDemoStudent() {
+  return getStudent("math-demo");
 }
 
 export function getLatestMetricSnapshots(studentId: string) {

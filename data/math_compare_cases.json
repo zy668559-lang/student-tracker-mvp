@@ -1,0 +1,46 @@
+[
+  {
+    "case_id": "math-case-001",
+    "student_id": "math-demo",
+    "date": "2026-03-12T20:30:00+08:00",
+    "module": "二次函数入手方式",
+    "before_problem": "看到函数题先慌，条件和图像关系理不顺，容易直接乱算。",
+    "before_reason": "之前没有先按题型看条件、图像和关系，一上来就算，步骤自然容易乱。",
+    "after_method": "现在能先看题型、找条件、连图像，再决定从哪一步开始。",
+    "after_change": "从“乱算”转到“按题型下手”。",
+    "show_in_live": true
+  },
+  {
+    "case_id": "math-case-002",
+    "student_id": "math-demo",
+    "date": "2026-03-12T20:40:00+08:00",
+    "module": "几何读图能力",
+    "before_problem": "看完图不知道关键关系在哪，条件像是散的。",
+    "before_reason": "图形里的角、边、特殊点和隐藏条件抓不住，所以读完题也没有方向。",
+    "after_method": "开始会先找特殊点、角关系、边关系和隐藏条件。",
+    "after_change": "从“看图没方向”转到“先抓关系”。",
+    "show_in_live": true
+  },
+  {
+    "case_id": "math-case-003",
+    "student_id": "math-demo",
+    "date": "2026-03-12T20:50:00+08:00",
+    "module": "辅助线思路",
+    "before_problem": "辅助线要么乱加，要么根本想不到。",
+    "before_reason": "以前不知道辅助线是为哪一步服务，所以不是瞎加线，就是完全想不到。",
+    "after_method": "在提示下已经能理解常见辅助线的目的和作用。",
+    "after_change": "从“不会加线”转到“知道为什么加这条线”。",
+    "show_in_live": true
+  },
+  {
+    "case_id": "math-case-004",
+    "student_id": "math-demo",
+    "date": "2026-03-12T21:00:00+08:00",
+    "module": "步骤完整度",
+    "before_problem": "证明过程前面会一点，后面容易断掉，步骤分不稳定。",
+    "before_reason": "关键关系和证明顺序没有固定下来，写到中间就会断链。",
+    "after_method": "现在开始能按目标一步一步往前推，但还需要继续练稳定性。",
+    "after_change": "从“步骤断”转到“开始有链条意识”。",
+    "show_in_live": true
+  }
+]

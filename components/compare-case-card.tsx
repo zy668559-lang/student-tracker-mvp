@@ -1,16 +1,30 @@
-import type { CompareCase } from "@/lib/types";
+﻿import type { CompareCase } from "@/lib/types";
 
 type CompareCaseCardProps = {
   item: CompareCase;
+  emphasis?: "default" | "large";
 };
 
-export function CompareCaseCard({ item }: CompareCaseCardProps) {
+export function CompareCaseCard({
+  item,
+  emphasis = "default"
+}: CompareCaseCardProps) {
+  const large = emphasis === "large";
+
   return (
-    <article className="rounded-[24px] border border-[var(--line)] bg-white p-4">
+    <article
+      className={`rounded-[24px] border border-[var(--line)] bg-white ${
+        large ? "p-5" : "p-4"
+      }`}
+    >
       <p className="text-[11px] uppercase tracking-[0.24em] text-[var(--muted)]">
         Compare Case
       </p>
-      <h3 className="mt-2 text-[24px] font-bold leading-tight text-[var(--ink)]">
+      <h3
+        className={`mt-2 font-bold leading-tight text-[var(--ink)] ${
+          large ? "text-[28px]" : "text-[24px]"
+        }`}
+      >
         {item.module}
       </h3>
 
@@ -19,7 +33,7 @@ export function CompareCaseCard({ item }: CompareCaseCardProps) {
           <p className="text-[11px] uppercase tracking-[0.22em] text-rose-500">
             修复前
           </p>
-          <p className="mt-2 text-base leading-7 text-[var(--ink)]">
+          <p className={`mt-2 leading-7 text-[var(--ink)] ${large ? "text-[17px]" : "text-base"}`}>
             {item.before_problem}
           </p>
         </div>
@@ -27,7 +41,7 @@ export function CompareCaseCard({ item }: CompareCaseCardProps) {
           <p className="text-[11px] uppercase tracking-[0.22em] text-[var(--muted)]">
             为什么会这样
           </p>
-          <p className="mt-2 text-base leading-7 text-[var(--ink)]">
+          <p className={`mt-2 leading-7 text-[var(--ink)] ${large ? "text-[17px]" : "text-base"}`}>
             {item.before_reason}
           </p>
         </div>
@@ -35,7 +49,7 @@ export function CompareCaseCard({ item }: CompareCaseCardProps) {
           <p className="text-[11px] uppercase tracking-[0.22em] text-emerald-600">
             修复后
           </p>
-          <p className="mt-2 text-base leading-7 text-[var(--ink)]">
+          <p className={`mt-2 leading-7 text-[var(--ink)] ${large ? "text-[17px]" : "text-base"}`}>
             {item.after_method}
           </p>
         </div>
@@ -43,7 +57,7 @@ export function CompareCaseCard({ item }: CompareCaseCardProps) {
           <p className="text-[11px] uppercase tracking-[0.22em] text-[var(--muted)]">
             核心变化
           </p>
-          <p className="mt-2 text-base leading-7 text-[var(--ink)]">
+          <p className={`mt-2 leading-7 text-[var(--ink)] ${large ? "text-[17px]" : "text-base"}`}>
             {item.after_change}
           </p>
         </div>
