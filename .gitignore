@@ -4,3 +4,5 @@ out
 dist
 coverage
 *.log
+
+.vercel
